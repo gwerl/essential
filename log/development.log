@@ -1,0 +1,997 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-14 15:19:49 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#intro as HTML
+  [1m[35m (26.7ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered static_pages/intro.html.erb within layouts/application (94.8ms)
+WARNING on line 169 of /Users/litehousedevelopment/Documents/OntwikkelingRails/essentialreadinglist/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".controle-group".
+  The selector ".controle-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .controle-group !optional" if the extend should be able to fail.
+
+
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 4014ms (Views: 3979.5ms | ActiveRecord: 33.4ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:53 +0200
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:54 +0200
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:54 +0200
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:54 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:54 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:54 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:54 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-14 15:19:54 +0200
+
+
+Started GET "/home" for 127.0.0.1 at 2014-04-14 15:20:01 +0200
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (1.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1
+  [1m[36mBook Load (3.4ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."creator_id" = $1 ORDER BY created_at ASC LIMIT 5[0m  [["creator_id", 1]]
+  [1m[35m (1.3ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 1]]
+  Rendered shared/_user_info.html.erb (5.0ms)
+  [1m[36m (1.6ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = $1[0m  [["follower_id", 1]]
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = $1  [["followed_id", 1]]
+  Rendered shared/_stats.html.erb (64.8ms)
+  Rendered shared/_error_messages.html.erb (11.0ms)
+  Rendered shared/_micropost_form.html.erb (117.6ms)
+  Rendered shared/_new_books.html.erb (2.5ms)
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 1) OR user_id = 1)[0m
+  Rendered shared/_feed.html.erb (2.4ms)
+  [1m[35mBook Exists (0.8ms)[0m  SELECT 1 AS one FROM "books" WHERE "books"."creator_id" = $1 LIMIT 1  [["creator_id", 1]]
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."creator_id" = $1 LIMIT 10 OFFSET 0[0m  [["creator_id", 1]]
+  [1m[35m (1.4ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."creator_id" = $1  [["creator_id", 1]]
+  Rendered books/_book.html.erb (3.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (294.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 457ms (Views: 310.6ms | ActiveRecord: 16.9ms)
+
+
+Started GET "/assets/tumblr-logo.png" for 127.0.0.1 at 2014-04-14 15:20:01 +0200
+
+
+Started GET "/assets/Facebook-icon.png" for 127.0.0.1 at 2014-04-14 15:20:01 +0200
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-04-14 15:20:01 +0200
+
+
+Started GET "/books/215" for 127.0.0.1 at 2014-04-14 15:20:03 +0200
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"215"}
+  [1m[36mBook Load (1.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "215"]]
+Book unknown on Amazon
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1
+  [1m[36mRating Load (1.3ms)[0m  [1mSELECT "ratings".* FROM "ratings" WHERE "ratings"."book_id" = 215 AND "ratings"."user_id" = 1 ORDER BY "ratings"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered shared/_comment_form.html.erb (23.7ms)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."book_id" = $1[0m  [["book_id", 215]]
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "ratings" WHERE "ratings"."book_id" = $1  [["book_id", 215]]
+  [1m[36m (0.8ms)[0m  [1mSELECT AVG("ratings"."score") AS avg_id FROM "ratings" WHERE "ratings"."book_id" = $1[0m  [["book_id", 215]]
+  Rendered books/show.html.erb within layouts/application (41.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 988ms (Views: 63.8ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/assets/star-off.png" for 127.0.0.1 at 2014-04-14 15:20:04 +0200
+
+
+Started GET "/books/Sorry,%20could%20not%20find%20this%20book%20on%20Amazon" for 127.0.0.1 at 2014-04-14 15:20:07 +0200
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"Sorry, could not find this book on Amazon"}
+  [1m[35mBook Load (0.8ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", "Sorry, could not find this book on Amazon"]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Book with id=Sorry, could not find this book on Amazon):
+  app/controllers/books_controller.rb:17:in `show'
+
+
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.9ms)
+
+
+Started GET "/books/Sorry,%20could%20not%20find%20this%20book%20on%20Amazon" for 127.0.0.1 at 2014-04-14 15:20:07 +0200
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"Sorry, could not find this book on Amazon"}
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "Sorry, could not find this book on Amazon"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Book with id=Sorry, could not find this book on Amazon):
+  app/controllers/books_controller.rb:17:in `show'
+
+
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.7ms)
+
+
+Started GET "/books/Sorry,%20could%20not%20find%20this%20book%20on%20Amazon" for 127.0.0.1 at 2014-04-14 15:21:48 +0200
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"Sorry, could not find this book on Amazon"}
+  [1m[35mBook Load (0.7ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", "Sorry, could not find this book on Amazon"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Book with id=Sorry, could not find this book on Amazon):
+  app/controllers/books_controller.rb:17:in `show'
+
+
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/litehousedevelopment/.rvm/gems/ruby-2.0.0-p247@gwerl_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.1ms)
+
+
+Started GET "/books/215" for 127.0.0.1 at 2014-04-14 15:22:13 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"215"}
+  [1m[35mBook Load (1.8ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", "215"]]
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1[0m
+  [1m[35mRating Load (1.1ms)[0m  SELECT "ratings".* FROM "ratings" WHERE "ratings"."book_id" = 215 AND "ratings"."user_id" = 1 ORDER BY "ratings"."id" ASC LIMIT 1
+  [1m[36mUser Load (2.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_error_messages.html.erb (2.5ms)
+  Rendered shared/_comment_form.html.erb (52.4ms)
+  [1m[35m (1.3ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."book_id" = $1  [["book_id", 215]]
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "ratings" WHERE "ratings"."book_id" = $1[0m  [["book_id", 215]]
+  [1m[35m (0.8ms)[0m  SELECT AVG("ratings"."score") AS avg_id FROM "ratings" WHERE "ratings"."book_id" = $1  [["book_id", 215]]
+  Rendered books/show.html.erb within layouts/application (71.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 1651ms (Views: 334.3ms | ActiveRecord: 21.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:14 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/Facebook-icon.png" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/tumblr-logo.png" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/assets/star-off.png" for 127.0.0.1 at 2014-04-14 15:22:15 +0200
+
+
+Started GET "/books/215" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"215"}
+  [1m[36mBook Load (1.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "215"]]
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1
+  [1m[36mRating Load (0.9ms)[0m  [1mSELECT "ratings".* FROM "ratings" WHERE "ratings"."book_id" = 215 AND "ratings"."user_id" = 1 ORDER BY "ratings"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_comment_form.html.erb (2.6ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."book_id" = $1[0m  [["book_id", 215]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "ratings" WHERE "ratings"."book_id" = $1  [["book_id", 215]]
+  [1m[36m (0.3ms)[0m  [1mSELECT AVG("ratings"."score") AS avg_id FROM "ratings" WHERE "ratings"."book_id" = $1[0m  [["book_id", 215]]
+  Rendered books/show.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 305ms (Views: 20.2ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/tumblr-logo.png" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/Facebook-icon.png" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/assets/star-off.png" for 127.0.0.1 at 2014-04-14 15:22:25 +0200
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-14 15:22:27 +0200
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (2.1ms)[0m  SELECT "books".* FROM "books" ORDER BY created_at ASC LIMIT 5
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1[0m
+  Rendered shared/_new_books.html.erb (1.8ms)
+  [1m[35m (2.1ms)[0m  SELECT DISTINCT COUNT(DISTINCT "books"."id") FROM "books"
+  [1m[36mBook Load (5.5ms)[0m  [1mSELECT DISTINCT "books".* FROM "books" LIMIT 10 OFFSET 0[0m
+  Rendered books/_book.html.erb (3.7ms)
+  Rendered books/index.html.erb within layouts/application (137.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 169ms (Views: 155.0ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/assets/tumblr-logo.png" for 127.0.0.1 at 2014-04-14 15:22:27 +0200
+
+
+Started GET "/assets/Facebook-icon.png" for 127.0.0.1 at 2014-04-14 15:22:27 +0200
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-04-14 15:22:27 +0200
+
+
+Started GET "/books/461" for 127.0.0.1 at 2014-04-14 15:22:29 +0200
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"461"}
+  [1m[35mBook Load (1.0ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", "461"]]
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1[0m
+  [1m[35mRating Load (0.5ms)[0m  SELECT "ratings".* FROM "ratings" WHERE "ratings"."book_id" = 461 AND "ratings"."user_id" = 1 ORDER BY "ratings"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_error_messages.html.erb (0.4ms)
+  Rendered shared/_comment_form.html.erb (4.0ms)
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."book_id" = $1  [["book_id", 461]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "ratings" WHERE "ratings"."book_id" = $1[0m  [["book_id", 461]]
+  [1m[35m (0.4ms)[0m  SELECT AVG("ratings"."score") AS avg_id FROM "ratings" WHERE "ratings"."book_id" = $1  [["book_id", 461]]
+  Rendered books/show.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 380ms (Views: 25.6ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/Facebook-icon.png" for 127.0.0.1 at 2014-04-14 15:22:29 +0200
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-04-14 15:22:29 +0200
+
+
+Started GET "/assets/tumblr-logo.png" for 127.0.0.1 at 2014-04-14 15:22:29 +0200
+
+
+Started GET "/assets/star-off.png" for 127.0.0.1 at 2014-04-14 15:22:29 +0200
+
+
+Started GET "/assets/star-on.png" for 127.0.0.1 at 2014-04-14 15:22:30 +0200
+
+
+Started GET "/assets/star-off.png" for 127.0.0.1 at 2014-04-14 15:22:30 +0200
+
+
+Started GET "/books/461" for 127.0.0.1 at 2014-04-14 16:28:47 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"461"}
+  [1m[35mBook Load (1.9ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", "461"]]
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1[0m
+  [1m[35mRating Load (1.2ms)[0m  SELECT "ratings".* FROM "ratings" WHERE "ratings"."book_id" = 461 AND "ratings"."user_id" = 1 ORDER BY "ratings"."id" ASC LIMIT 1
+  [1m[36mUser Load (28.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_error_messages.html.erb (6.4ms)
+  Rendered shared/_comment_form.html.erb (96.4ms)
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."book_id" = $1  [["book_id", 461]]
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "ratings" WHERE "ratings"."book_id" = $1[0m  [["book_id", 461]]
+  [1m[35m (0.8ms)[0m  SELECT AVG("ratings"."score") AS avg_id FROM "ratings" WHERE "ratings"."book_id" = $1  [["book_id", 461]]
+  Rendered books/show.html.erb within layouts/application (188.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 1669ms (Views: 351.9ms | ActiveRecord: 47.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-14 16:28:49 +0200
+
+
+Started GET "/assets/star-off.png" for 127.0.0.1 at 2014-04-14 16:28:50 +0200
+
+
+Started GET "/assets/Facebook-icon.png" for 127.0.0.1 at 2014-04-14 16:28:50 +0200
+
+
+Started GET "/assets/tumblr-logo.png" for 127.0.0.1 at 2014-04-14 16:28:50 +0200
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-04-14 16:28:50 +0200
+
+
+Started GET "/assets/star-on.png" for 127.0.0.1 at 2014-04-14 16:28:50 +0200
+
+
+Started GET "/home" for 127.0.0.1 at 2014-04-14 16:28:56 +0200
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1[0m
+  [1m[35mBook Load (3.2ms)[0m  SELECT "books".* FROM "books" WHERE "books"."creator_id" = $1 ORDER BY created_at ASC LIMIT 5  [["creator_id", 1]]
+  [1m[36m (1.3ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered shared/_user_info.html.erb (4.3ms)
+  [1m[35m (1.6ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = $1  [["follower_id", 1]]
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = $1[0m  [["followed_id", 1]]
+  Rendered shared/_stats.html.erb (67.4ms)
+  Rendered shared/_error_messages.html.erb (0.4ms)
+  Rendered shared/_micropost_form.html.erb (3.6ms)
+  Rendered shared/_new_books.html.erb (1.8ms)
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 1) OR user_id = 1)
+  Rendered shared/_feed.html.erb (2.3ms)
+  [1m[36mBook Exists (0.8ms)[0m  [1mSELECT 1 AS one FROM "books" WHERE "books"."creator_id" = $1 LIMIT 1[0m  [["creator_id", 1]]
+  [1m[35mBook Load (0.8ms)[0m  SELECT "books".* FROM "books" WHERE "books"."creator_id" = $1 LIMIT 10 OFFSET 0  [["creator_id", 1]]
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE "books"."creator_id" = $1[0m  [["creator_id", 1]]
+  Rendered books/_book.html.erb (3.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (173.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 220ms (Views: 181.6ms | ActiveRecord: 15.8ms)
+
+
+Started GET "/books/229" for 127.0.0.1 at 2014-04-14 16:28:59 +0200
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"229"}
+  [1m[35mBook Load (0.8ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", "229"]]
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1[0m
+  [1m[35mRating Load (0.7ms)[0m  SELECT "ratings".* FROM "ratings" WHERE "ratings"."book_id" = 229 AND "ratings"."user_id" = 1 ORDER BY "ratings"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (24.7ms)[0m  INSERT INTO "ratings" ("book_id", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["book_id", 229], ["created_at", Mon, 14 Apr 2014 14:28:59 UTC +00:00], ["updated_at", Mon, 14 Apr 2014 14:28:59 UTC +00:00], ["user_id", 1]]
+  [1m[36m (69.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered shared/_comment_form.html.erb (3.5ms)
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."book_id" = $1[0m  [["book_id", 229]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "ratings" WHERE "ratings"."book_id" = $1  [["book_id", 229]]
+  [1m[36m (0.3ms)[0m  [1mSELECT AVG("ratings"."score") AS avg_id FROM "ratings" WHERE "ratings"."book_id" = $1[0m  [["book_id", 229]]
+  Rendered books/show.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 466ms (Views: 24.5ms | ActiveRecord: 99.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-04-14 16:29:06 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = $1  [["follower_id", 1]]
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = $1[0m  [["followed_id", 1]]
+  Rendered shared/_stats.html.erb (5.5ms)
+  Rendered users/_follow_form.html.erb (0.6ms)
+  [1m[35mMicropost Exists (0.9ms)[0m  SELECT 1 AS one FROM "microposts" WHERE "microposts"."user_id" = $1 ORDER BY created_at DESC LIMIT 1  [["user_id", 1]]
+  [1m[36mBook Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "books" WHERE "books"."creator_id" = $1 LIMIT 1[0m  [["creator_id", 1]]
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."creator_id" = $1  [["creator_id", 1]]
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."creator_id" = $1 LIMIT 10 OFFSET 0[0m  [["creator_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."creator_id" = $1  [["creator_id", 1]]
+  Rendered books/_book.html.erb (3.4ms)
+  Rendered users/show.html.erb within layouts/application (27.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 94ms (Views: 84.0ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/books/223" for 127.0.0.1 at 2014-04-14 16:29:11 +0200
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"223"}
+  [1m[36mBook Load (0.8ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "223"]]
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1
+  [1m[36mRating Load (0.5ms)[0m  [1mSELECT "ratings".* FROM "ratings" WHERE "ratings"."book_id" = 223 AND "ratings"."user_id" = 1 ORDER BY "ratings"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "ratings" ("book_id", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["book_id", 223], ["created_at", Mon, 14 Apr 2014 14:29:11 UTC +00:00], ["updated_at", Mon, 14 Apr 2014 14:29:11 UTC +00:00], ["user_id", 1]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_comment_form.html.erb (2.7ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."book_id" = $1  [["book_id", 223]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "ratings" WHERE "ratings"."book_id" = $1[0m  [["book_id", 223]]
+  [1m[35m (0.4ms)[0m  SELECT AVG("ratings"."score") AS avg_id FROM "ratings" WHERE "ratings"."book_id" = $1  [["book_id", 223]]
+  Rendered books/show.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 300ms (Views: 21.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-04-14 16:29:14 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = $1[0m  [["follower_id", 1]]
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = $1  [["followed_id", 1]]
+  Rendered shared/_stats.html.erb (4.9ms)
+  Rendered users/_follow_form.html.erb (0.2ms)
+  [1m[36mMicropost Exists (0.8ms)[0m  [1mSELECT 1 AS one FROM "microposts" WHERE "microposts"."user_id" = $1 ORDER BY created_at DESC LIMIT 1[0m  [["user_id", 1]]
+  [1m[35mBook Exists (0.8ms)[0m  SELECT 1 AS one FROM "books" WHERE "books"."creator_id" = $1 LIMIT 1  [["creator_id", 1]]
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE "books"."creator_id" = $1[0m  [["creator_id", 1]]
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" WHERE "books"."creator_id" = $1 LIMIT 10 OFFSET 0  [["creator_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "books" WHERE "books"."creator_id" = $1[0m  [["creator_id", 1]]
+  Rendered books/_book.html.erb (2.6ms)
+  Rendered users/show.html.erb within layouts/application (26.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 50ms (Views: 40.0ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/books/221" for 127.0.0.1 at 2014-04-14 16:29:16 +0200
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"221"}
+  [1m[35mBook Load (0.8ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", "221"]]
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1[0m
+  [1m[35mRating Load (0.5ms)[0m  SELECT "ratings".* FROM "ratings" WHERE "ratings"."book_id" = 221 AND "ratings"."user_id" = 1 ORDER BY "ratings"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "ratings" ("book_id", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["book_id", 221], ["created_at", Mon, 14 Apr 2014 14:29:16 UTC +00:00], ["updated_at", Mon, 14 Apr 2014 14:29:16 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_comment_form.html.erb (2.7ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."book_id" = $1[0m  [["book_id", 221]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "ratings" WHERE "ratings"."book_id" = $1  [["book_id", 221]]
+  [1m[36m (0.3ms)[0m  [1mSELECT AVG("ratings"."score") AS avg_id FROM "ratings" WHERE "ratings"."book_id" = $1[0m  [["book_id", 221]]
+  Rendered books/show.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 328ms (Views: 21.4ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-04-14 16:29:23 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = $1  [["follower_id", 1]]
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = $1[0m  [["followed_id", 1]]
+  Rendered shared/_stats.html.erb (4.2ms)
+  Rendered users/_follow_form.html.erb (0.1ms)
+  [1m[35mMicropost Exists (0.5ms)[0m  SELECT 1 AS one FROM "microposts" WHERE "microposts"."user_id" = $1 ORDER BY created_at DESC LIMIT 1  [["user_id", 1]]
+  [1m[36mBook Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "books" WHERE "books"."creator_id" = $1 LIMIT 1[0m  [["creator_id", 1]]
+  [1m[35m (2.6ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."creator_id" = $1  [["creator_id", 1]]
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."creator_id" = $1 LIMIT 10 OFFSET 0[0m  [["creator_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."creator_id" = $1  [["creator_id", 1]]
+  Rendered books/_book.html.erb (2.7ms)
+  Rendered users/show.html.erb within layouts/application (22.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 32.2ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-14 16:35:12 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#intro as HTML
+  [1m[35m (1.4ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered static_pages/intro.html.erb within layouts/application (70.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+Completed 200 OK in 453ms (Views: 443.5ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/jquery.raty.min.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-14 16:35:13 +0200
+
+
+Started GET "/home" for 127.0.0.1 at 2014-04-14 16:35:15 +0200
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (2.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1
+  [1m[36mBook Load (3.0ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."creator_id" = $1 ORDER BY created_at ASC LIMIT 5[0m  [["creator_id", 1]]
+  [1m[35m (1.3ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 1]]
+  Rendered shared/_user_info.html.erb (5.0ms)
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = $1[0m  [["follower_id", 1]]
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = $1  [["followed_id", 1]]
+  Rendered shared/_stats.html.erb (113.4ms)
+  Rendered shared/_error_messages.html.erb (50.7ms)
+  Rendered shared/_micropost_form.html.erb (120.3ms)
+  Rendered shared/_new_books.html.erb (2.4ms)
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 1) OR user_id = 1)[0m
+  Rendered shared/_feed.html.erb (2.7ms)
+  [1m[35mBook Exists (0.8ms)[0m  SELECT 1 AS one FROM "books" WHERE "books"."creator_id" = $1 LIMIT 1  [["creator_id", 1]]
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."creator_id" = $1 LIMIT 10 OFFSET 0[0m  [["creator_id", 1]]
+  [1m[35m (1.4ms)[0m  SELECT COUNT(*) FROM "books" WHERE "books"."creator_id" = $1  [["creator_id", 1]]
+  Rendered books/_book.html.erb (3.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (555.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 926ms (Views: 592.4ms | ActiveRecord: 17.1ms)
+
+
+Started GET "/assets/Facebook-icon.png" for 127.0.0.1 at 2014-04-14 16:35:16 +0200
+
+
+Started GET "/assets/tumblr-logo.png" for 127.0.0.1 at 2014-04-14 16:35:16 +0200
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-04-14 16:35:16 +0200
+
+
+Started GET "/books/215" for 127.0.0.1 at 2014-04-14 16:35:18 +0200
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"215"}
+  [1m[36mBook Load (1.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "215"]]
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ae242190b07f4b700ced0c65684956d765f5b927' LIMIT 1
+  [1m[36mRating Load (1.1ms)[0m  [1mSELECT "ratings".* FROM "ratings" WHERE "ratings"."book_id" = 215 AND "ratings"."user_id" = 1 ORDER BY "ratings"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered shared/_comment_form.html.erb (21.4ms)
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."book_id" = $1[0m  [["book_id", 215]]
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "ratings" WHERE "ratings"."book_id" = $1  [["book_id", 215]]
+  [1m[36m (0.8ms)[0m  [1mSELECT AVG("ratings"."score") AS avg_id FROM "ratings" WHERE "ratings"."book_id" = $1[0m  [["book_id", 215]]
+  Rendered books/show.html.erb within layouts/application (34.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 988ms (Views: 45.9ms | ActiveRecord: 12.1ms)
+
+
+Started GET "/assets/Facebook-icon.png" for 127.0.0.1 at 2014-04-14 16:35:19 +0200
+
+
+Started GET "/assets/tumblr-logo.png" for 127.0.0.1 at 2014-04-14 16:35:19 +0200
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-04-14 16:35:19 +0200
+
+
+Started GET "/assets/star-off.png" for 127.0.0.1 at 2014-04-14 16:35:19 +0200
